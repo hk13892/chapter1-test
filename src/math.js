@@ -20,10 +20,15 @@ console.log(multiply(5,5));
 function divide(a,b){
     return a/b;
 }
-console.log(divide(10/10));
+console.log(divide(10,10));
 
 //square
 function square(a){
     return a*a;
 }
 console.log(square(5));
+//remainder
+function rem(a,b){
+    return a%b;
+}
+console.log(rem(20,3));
