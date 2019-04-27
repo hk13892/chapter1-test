@@ -10,8 +10,15 @@ function sub(a,b){
 }
 console.log(sub(5,10));
 
+//multiply
+function multiply(a,b) {
+    return a*b;
+}
+console.log(multiply(5,5));
+
 //divide
 function divide(a,b){
     return a/b;
 }
 console.log(divide(10/10));
+
